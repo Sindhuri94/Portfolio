@@ -1,0 +1,130 @@
+.home{
+    
+    background-size: cover;
+    position: relative;
+    height:100vh;
+   
+}
+.button{
+   text-align: center; 
+   background-color: rgb(153, 75, 225);
+    color: white;
+    margin-left:50px;
+    padding: 4px 20px 4px 20px;
+    border-radius: 7px;
+    
+
+}
+.bannerText{
+    margin-top: 150px;
+    color: rgb(5, 5, 99);
+   
+}
+
+section{
+    padding-bottom: 50px;
+    padding-top: 60px;
+}
+
+.image{
+  margin-top: 0px;
+  width: 700px;
+  height: 600px;
+  
+}
+.bannerTitle{
+    font-size: 15px;
+
+}
+.bannerDesc{
+    font-size: 20px;
+    color: rgb(131, 5, 5);
+}
+.bannerDesc1{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(5, 5, 99);
+}
+
+body{
+    overflow-x: hidden;
+}
+.carousel-inner{
+    text-align: center;
+    height:300px;
+    background-color: grey;
+    color: white;
+    margin-top: 30px;
+}
+
+/* 5 Services */
+.services_wrapper .card {
+    background-color: var(--bg-light);
+    cursor: pointer;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+
+.services_wrapper .card:hover {
+    box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+    background: var(--bg-white);
+}
+
+
+.portfolio-wrapper .card{
+    background-color: var(--bg-light);
+    cursor: pointer;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+.portfolio-wrapper .card:hover{
+    box-shadow: 0 0.9375rem 1.875rem rgba(57, 61, 113, 0.3);
+    background: var(--bg-white);
+    border: black;
+
+
+}
+.card-img-top{
+    height: 40vh;
+    width: 50vh;
+}
+
+
+
+
+@media screen and (min-width:568px){
+    .image{
+        display: flex;
+    }
+}
+@media screen and (max-width:567px){
+    .image{
+        display: flex;
+        height:500px;
+    }
+}
+
+
+@media screen and (min-width:568px){
+    .cards-wrapper{
+        display: flex;
+    }
+}
+@media screen and (max-width:567px){
+    .card:not(:first-child){
+        display: none;
+    }
+}
+
+
+
+.BIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
