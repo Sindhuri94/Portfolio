@@ -1,8 +1,9 @@
-.home{
+.bannerBgImage{
     
     background-size: cover;
     position: relative;
     height:100vh;
+    
    
 }
 .button{
@@ -16,7 +17,7 @@
 
 }
 .bannerText{
-    margin-top: 150px;
+    margin-top: 200px;
     color: rgb(5, 5, 99);
    
 }
