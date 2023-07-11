@@ -1,3 +1,8 @@
+.navbar-nav .nav-link{
+    color: white !important;
+}
+
+
 .bannerBgImage{
     
     background-size: cover;
@@ -8,17 +13,24 @@
 }
 .button{
    text-align: center; 
-   background-color: rgb(153, 75, 225);
-    color: white;
+   background-color:#9f24ec;
+    color: #fff;
     margin-left:50px;
-    padding: 4px 20px 4px 20px;
+    padding: 10px 20px;
     border-radius: 7px;
     
 
 }
+
+
+button:hover{
+    color: rgb(219, 214, 214);
+    text-decoration: none;
+}
 .bannerText{
-    margin-top: 200px;
+   margin-top: 100px;
     color: rgb(5, 5, 99);
+    font-size: 50px;
    
 }
 
@@ -29,7 +41,7 @@ section{
 
 .image{
   margin-top: 0px;
-  width: 700px;
+  width: 900px;
   height: 600px;
   
 }
@@ -42,7 +54,7 @@ section{
     color: rgb(131, 5, 5);
 }
 .bannerDesc1{
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     color: rgb(5, 5, 99);
 }
