@@ -123,11 +123,7 @@ body{
 }
 
 
-@media screen and (min-width:568px){
-    .cards-wrapper{
-        display: flex;
-    }
-}
+
 @media screen and (max-width:567px){
     .card:not(:first-child){
         display: none;
