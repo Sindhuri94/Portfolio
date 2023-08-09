@@ -21,25 +21,3 @@ form.addEventListener('submit', function (e) {
 });
 
 
-document.addEventListener("DOMContentLoaded", function() {
-    // Get the navigation bar element
-    var navbar = document.querySelector(".navbar");
-
-    // Get the initial offset of the navigation bar
-    var navbarOffset = navbar.offsetTop;
-
-    // Function to add or remove the sticky class based on scroll position
-    function updateStickyNav() {
-        if (window.pageYOffset >= navbarOffset) {
-            navbar.classList.add("sticky");
-        } else {
-            navbar.classList.remove("sticky");
-        }
-    }
-
-    // Initial call to set initial state
-    updateStickyNav();
-
-    // Add an event listener for the scroll event
-    window.addEventListener("scroll", updateStickyNav);
-});
