@@ -1,0 +1,45 @@
+document.addEventListener("DOMContentLoaded", function() {
+
+const form = document.getElementById('contact_form');
+const fullNameInput = document.getElementById('fullName');
+const emailInput = document.getElementById('emailInput');
+const teleInput = document.getElementById('teleInput');
+const textarea = document.getElementById('textarea');
+
+form.addEventListener('submit', function (e) {
+    console.log("submitted");
+       e.preventDefault();
+
+    if (fullNameInput.value === '' || emailInput.value === '' || teleInput.value === '' || textarea.value === '') {
+        alert('Please fill in all fields.');
+    } else {
+        // Here, you can include code to handle form submission, like sending an email or saving data.
+        alert('Form submitted successfully!');
+        // form.reset();
+    }
+});
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the navigation bar element
+    var navbar = document.querySelector(".navbar");
+
+    // Get the initial offset of the navigation bar
+    var navbarOffset = navbar.offsetTop;
+
+    // Function to add or remove the sticky class based on scroll position
+    function updateStickyNav() {
+        if (window.pageYOffset >= navbarOffset) {
+            navbar.classList.add("sticky");
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+
+    // Initial call to set initial state
+    updateStickyNav();
+
+    // Add an event listener for the scroll event
+    window.addEventListener("scroll", updateStickyNav);
+});
