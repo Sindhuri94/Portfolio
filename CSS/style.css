@@ -81,8 +81,9 @@ body{
 }
 
 .services_wrapper .card:hover {
-    box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+    box-shadow: 0 0.9375rem 1.875rem rgba(4, 18, 211, 0.3);
     background: var(--bg-white);
+    
 }
 
 
@@ -95,7 +96,7 @@ body{
     transition: all .4s ease 0s;
 }
 .portfolio-wrapper .card:hover{
-    box-shadow: 0 0.9375rem 1.875rem rgba(57, 61, 113, 0.3);
+    box-shadow: 0 0.9375rem 1.875rem rgba(1, 9, 130, 0.3);
     background: var(--bg-white);
     border: black;
 
